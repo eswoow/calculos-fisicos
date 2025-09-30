@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos Fisicos</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Velocidade Média</h1>
+    <label for="desloc">Deslocamento (em metros):</label>
+    <input type="number" name="desloc" id="desloc">
+    <br>
+    <label for="tempo">Intervalo de tempo (segundos):</label>
+    <input type="number" name="tempo" id="tempo">
+    <br>
+    <button onclick="velocidadeMedia()">Calcular</button>
+    <p id="resulVelocMedia">Resultado: </p>
+    <br><br><br>
+    <h1>Força Resultante (Segunda Lei de Newton)</h1>
+    <label for="massa">Massa (kg):</label>
+    <input type="number" name="massa" id="massa">
+    <br>
+    <label for="acel">Aceleração (m/s²):</label>
+    <input type="number" name="acel" id="acel">
+    <br>
+    <button onclick="forcaResultante()">Calcular</button>
+    <br>
+    <p id="resulForca">Resultado: </p>
+    <br><br><br>
+    <h1>Energia Cinética</h1>
+    <label for="massaCin">Massa (kg):</label>
+    <input type="number" id="massaCin">
+    <br>
+    <label for="velocidadeCin">Velocidade (m/s)</label>
+    <input type="number" id="velocidadeCin">
+    <br>
+    <button onclick="energiaCinetica()">Calcular</button>
+    <p id="resulEnergiaCin">Resultado: </p>
+    <br><br><br>
+    <h1>Potência Mecânica</h1>
+    <label for="energiaPot">Energia (J):</label>
+    <input type="number" id="energiaPot">
+    <br>
+    <label for="tempoPot">Tempo (s):</label>
+    <input type="number" id="tempoPot">
+    <br>
+    <button onclick="potenciaMecanica()">Calcular</button>
+    <p id="resulPotencia">Resultado: </p>
+    <br><br><br>
+    <h1>Pressão</h1>
+    <label for="forcaPress">Força (N):</label>
+    <input type="number" id="forcaPress">
+    <br>
+    <label for="areaPress">Área (m²):</label>
+    <input type="number" id="areaPress">
+    <br>
+    <button onclick="pressao()">Calcular</button>
+    <p id="resulPressao">Resultado: </p>
+    
+</body>
+</html>
